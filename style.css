@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Thasadith&display=swap");
+
+body {
+    height: 100vh;
+  background-color: rgb(41, 160, 130);
+  font-family: "Thasadith", sans-serif;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+
+#shed {
+    align-content: top;
+    grid-column: 1;
+    grid-row: 1;
+    /* background-color: pink; */
+    text-align: center;
+    font-size: 100px;
+    letter-spacing: .5em;
+}
+
+
+#leaf {
+
+    grid-column: 1;
+    grid-row: 2;
+    height: 50px;
+    margin: 0 auto;
+    width: 100px; 
+
+}
+
+#entry-form {
+    grid-column: 1;
+    grid-row: 2;
+   margin: 0 auto;
+}
+
+#leaf2 {
+   
+    grid-column: 1;
+    grid-row: 1;
+    height: 50px;
+    margin-left: 80%;
+    width: 100px; 
+
+}
+
+#email {
+    margin: 0 0 10px 0;
+    
+}
+
+#circle1 {
+    grid-column: 3;
+    grid-row: 2;
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: lightseagreen;
+}
+#circle2 {
+    grid-column: 2;
+    grid-row: 3;
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: lightseagreen;
+}
+#circle3 {
+    grid-column: 4;
+    grid-row: 3;
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: lightseagreen;
+}
+
+#leaf3 {
+    grid-row: 1;
+    grid-column: 5;
+    height: 50px;
+    width: 50px;
+}
+
+#feeling-form {
+    grid-column: 2/span 1;
+    grid-row: 2;
+}
+
+#reflect {
+    grid-column: 2/span 1;
+    grid-row: 1
+}
+
+#leaf4 {
+    grid-column: 3;
+    height: 50px;
+    width: 50px;
+}
+
+#wheel {
+    grid-column: 2/span1;
+    grid-row: 2;
+    height: 300px;
+    width: 300px;;
+}
+
+#atlas {
+    grid-column: 2/span1;
+}
+
+#leaf5 {
+    grid-column: 3;
+    grid-row: 1;
+    height: 50px;
+    width: 50px;
+}
+
+#leaf6 {
+    height: 50px;
+    width: 50px;
+}

@@ -1,44 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script defer src="script.js"></script>
     <title>shed</title>
-</head>
-<body>
-    <section id="landing">
-        <h1 class="title">s h e d</h1>
-        <img src="/assets/leaf.jpg" alt="">
-    </section>
+  </head>
+  <body>
+      <p id="logout">You are logged out</p>
+      <!-- landing page and landing icon -->
+    <div class="landing">
+      <h1 id="shed">shed</h1>
+      <img src="/assets/leaf.png" id="leaf" alt="leaf" />
+    </div>
+<!-- login page and login icons / forms -->
+    <div id="login-page">
+      <img src="/assets/leaf.png" id="leaf2" alt="leaf" />
+      <form action="" id="entry-form">
+        <input type="email" name="" id="email" placeholder="email" /><br />
+        <input type="password" name="" id="password" placeholder="password" /><br>
+        <button type="button" class="enter">login</button>
+      </form>
+    </div>
+    <!-- navigation page and nav icons -->
+    <div id="circles">
+        <div id="circle1">atlas</div>
+        <div id="circle2">reflect</div>
+        <div id="circle3">log</div>
+        <img src="/assets/leaf.png" id="leaf3" alt="leaf" />
+    </div>
+    <!-- input box and log for feelings -->
+    <div id="feelings">
+        <img src="/assets/leaf.png" id="leaf4" alt="leaf" />
+        <form action="" id="feeling-form">
+            <input
+              type="text"
+              name=""
+              id="feeling"
+              placeholder="how are you feeling?"
+            /><br />
+            <button id="logger">log</button>
+          </form>
+    </div>
+    <!-- reflection logs -->
+    <div id="reflection">
+        <p id="reflect">reflect</p>
+        <img src="/assets/leaf.png" id="leaf5" alt="leaf" />
+    </div>
+    <!-- atlas and associated -->
+    <div id="the-atlas">
+        <p id="atlas">atlas</p>
+        <img src="/assets/wheel.png" id="wheel" alt="leaf" />
+        <img src="/assets/leaf.png" id="leaf6" alt="leaf" />
+    </div>
+   
+   
 
-    <section id="login">
-        <form action="">
-            <input type="email" placeholder="email">
-            <input type="password" placeholder="password">
-            <button class="enterButton">l o g i n</button>
-        </form>
-    </section>
-
-    <section id="selectionPage">
-        <h1 id="log">l o g</h1>
-        <h1 id="atlas">a t l a s</h1>
-        <h1 id="reflect">r e f l e c t</h1>
-    </section>
-    <section class="feeling">
-        <form action="">
-            <input type="text" placeholder="how are you feeling?">
-            <button>log</button>
-        </form>
-    </section>
-    <section class="reflect">
-        Emotions log goes here
-    </section>
-    <section id="atlas">
-        <img src="/assets/" alt="">
-        <p>image goes here</p>
-    </section>
-    <button class="logout">logout</button>
-</body>
+   
+   
+   
+    
+  </body>
 </html>
